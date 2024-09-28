@@ -1,14 +1,10 @@
-export default function Sections( {children, forSections } ){
+export default function Sections( {children, sectionStyle } ){
 
     return(
         <>
-        {
-            forSections.map(sectionStyle =>(
-                <section className={sectionStyle.style}>
-                    {children}
-                </section>
-            ))
-        }
+            <section className={sectionStyle}>
+                {children}
+            </section>
         </>
     )
 }

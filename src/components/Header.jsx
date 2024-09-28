@@ -21,6 +21,7 @@ export default function Header( { textButton } ){
             <nav>
                 <ul className="flex gap-5 lg:text-1xl md:text-xl sm:text-lg text-sm">
                     <li><NavLink to='/'>Home</NavLink></li>
+                    <li><NavLink to='/manual'>Manual</NavLink></li>
                 </ul>
             </nav>
 
