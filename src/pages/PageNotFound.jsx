@@ -1,7 +1,11 @@
 export default function PageNotFound(){
+
     return(
         <>
-            <a href="/">Voltar a Página Inicial</a>
+            <h3>ERRO 404</h3>
+            <a href="/">
+                Voltar para a paágina inicial
+            </a>
         </>
     )
 
